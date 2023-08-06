@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<!-- Website - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Portfolio- Himanshu Pathak</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <!-- Move to up button -->
+    <div class="scroll-button">
+      <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <!-- navgaition menu -->
+    <nav>
+      <div class="navbar">
+        <div class="logo"><a href="#">Welcome to My Portfolio</a></div>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#services">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+        </ul>
+        <div class="media-icons">
+          <a href="https://www.linkedin.com/in/pathak-himanshu/"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+          <a href="https://github.com/gamechanger0409"><i class="fab fa-github"></i></a>
+          
+        </div>
+      </div>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <div class="text">
+          <div class="text-one">Hello,</div><br>
+          <div class="text-two">I'm Himanshu Pathak</div>
+          <div class="text-three">Java Programmer & Web Developer</div><br>
+          <div class="text-four">B.tech CSE'24 RJIT BSF Gwalior</div>
+        </div>  
+        <div class="button">
+          <button onclick="knowMore()">Know More</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section Start -->
+    <section class="about" id="about">
+      <div class="content">
+        <div class="title"><span>About Me</span></div>
+        <div class="about-details">
+          <div class="left">
+            <img src="/picture.jpeg" alt="" />
+          </div>
+          <div class="right">
+            <div class="topic">Aspiring Software Engineer</div>
+            <p>
+                Energetic and passionate final year student working towards B.tech in 
+                computer science at Rustamji Institute of Technology, BSF Gwalior. Aiming 
+                to use my DSA and Development skills and enhance my knowledge during an opportunity. 
+                Wanted to contribute my skiils and knowledge for the development of an organisaztion.<br><br>
+                Driven and dedicated work ethic with 
+                good communication and leadership skills. A good team 
+                player, who is able to work independently.
+            </p>
+            <div class="button">
+              <button onclick="downloadResume()">Download CV</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Skill Section Start -->
+    <!-- Section Tag and Other Div will same where we need to put same CSS -->
+    <section class="skills" id="skills">
+      <div class="content">
+        <div class="title"><span>My Skills</span></div>
+        <div class="skills-details">
+          <div class="text">
+            <div class="topic">Skills Summary and Achievements</div>
+            <p> I am Competent <b>Java Programmer and MERN Stack Developer</b> Skilled in
+
+              <b>OOPS</b> | Core Java | C++ | <b>Data Structures and Algorithms</b> | HTML | CSS | JavaScript | Bootstrap | Nodejs  | SQL (Oracle) | 
+                SDLC (Agile & Waterfall) | Github <br>
+                
+                <i>Tools </i>- VS Code | MS Office | Slack | Notepad++<br>
+                <i>Academic Coursework</i> - Computer network | Operating System | DBMS <br><br>
+                <h3>Achievements</h3> 
+                <ul>
+                  <li>AIR 978 in Codekaze June-23 by Coding Ninja (Cleared both Rounds) <a href="https://ninjasfiles.s3.amazonaws.com/certificate_of_event_codekaze_-_june_23_round_2_30bb31184067047dd780.pdf">(certificate)</a></li>
+                  <li>700+ Points in GeeksforGeeks, Solved 300+ problems of Data Structure and Algorithms <a href="https://auth.geeksforgeeks.org/user/gamechanger04/practice">(geeksforgeeks)</a></li>
+                  <li>5 Star Coder at Hackerank & 2 star at CodeChef <a href="https://www.hackerrank.com/himanshupathak02?hr_r=1">(hackerank)</a> <a href="https://www.codechef.com/users/unknown04">(codechef)</a></li>
+                </ul>
+              </p>
+
+                
+            <div class="experience">
+              <!-- <div class="num">1+</div> -->
+              <!-- <div class="exp">
+                Years Of <br />
+                Experience
+              </div> -->
+            </div>
+          </div>
+          <div class="boxes">
+            <div class="box">
+              <div class="topic">Core Java</div>
+              <div class="per">90%</div>
+            </div>
+            <div class="box">
+              <div class="topic">HTML/CSS</div>
+              <div class="per">80%</div>
+            </div>
+            <div class="box">
+              <div class="topic">JavScript</div>
+              <div class="per">70%</div>
+            </div>
+            <div class="box">
+              <div class="topic">Reactjs</div>
+              <div class="per">60%</div>
+            </div>
+            <div class="box">
+                <div class="topic">Nodejs</div>
+                <div class="per">50%</div>
+              </div>
+              <div class="box">
+                <div class="topic">MongoDB</div>
+                <div class="per">50%</div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Services Section Start -->
+    <section class="services" id="services">
+      <div class="content">
+        <div class="title"><span>Projects</span></div>
+        <div class="boxes">
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-desktop"></i>
+            </div>
+            <div class="topic"><a href="https://gamechanger0409.github.io/Email_and_passsword_verification/">Email and Password Validation</a></div>
+            <p>It Verify the Email Address that it is valid or not and Check the strength of the password entered by the user. <br> <b>Technology used:</b> HTML, CSS, JavaScript </p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <div class="topic"><a href="https://rjit-community.onrender.com/">Community Website (For College)</a></div>
+            <p>It's main objective is to enhance student knowledge and to expose their college life to new experiences. <br><b>Technology used:</b> HTML, CSS, JavaScript, Nodejs, MongoDb
+              </p>
+          </div>
+          <!-- <div class="box">
+            <div class="icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="topic">Digital Marketing</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+          </div> -->
+         
+        
+         
+           
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Me section Start -->
+    <section class="contact" id="contact">
+      <div class="content">
+        <div class="title"><span>Contact Me</span></div>
+        <div class="text">
+          <div class="topic">If you have any query Let's Connect
+          </div>
+          <p>If you have any opportunity for me or You Wanted some assistance from me you can reach me out at @himanshupathak0409@gmail.com.<br>You also Connect with me in Linkedin</p>
+          <div class="button">
+            <button onclick="sendEmail()">Mail me</button>
+          </div>
+          
+          
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- Footer Section Start -->
+    <footer>
+      <div class="text">
+        <span>Created By <a href="#">Himanshu Pathak</a> | &#169; 2023 All Rights Reserved</span>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
